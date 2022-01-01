@@ -1,0 +1,52 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+#heading_app{
+    background-color: rgb(22, 0, 0);
+    color:rgb(177, 27, 0);
+    font-size: 35px;
+    padding: 20px;
+}
+
+#heading_span{
+    color: orange;
+    font-size: 25px;
+}
+
+#volume_disc_img{
+    width: 400px;
+    border-radius: 200px;
+}
+
+#speed_disc_img{
+    width: 400px;
+    border-radius: 200px;
+}
+
+#speed_disc{
+    float: left;
+}
+
+#volume_disc{
+    float: right;
+}
+
+#speed_id{
+    margin-left: 125.0011234px;
+    width: 150.0011234px;
+    font-size: 25px;
+}
+
+#volume_id{
+    margin-left: 125.0011234px;
+    width: 150.0011234px;
+    font-size: 25px;
+}
+
+#playbtn{
+    font-size: 25px;
+    padding: 20px;
+    width: 255px;
+}
