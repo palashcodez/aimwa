@@ -12,20 +12,22 @@
   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
 
   <link rel="stylesheet" type="text/css" href="style.css">
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.js"></script>
 </head>
 <body>
 <center>
   	<div id="heading_app">
       <label>AI MUSIC WEB APP
       <hr>
-	    <span id="heading_span">NOTE - Get your left-hand wrist in front of the webcam to play Peter Pan Song. Get your right-hand wrist in front of the webcam to play Harry Potter Theme Song</span>
+	    <span id="heading_span">NOTE - Get your left-hand wrist in front of the webcam to play Warriors Song. Get your right-hand wrist in front of the webcam to play Happier.</span>
       </label>
   </div>
 	<br><br>
 </center>
 <center>
-  <button id="playbtn" class="btn btn-danger">Play▶️</button>
+  <button id="playbtn" class="btn btn-success" onclick="play()">Play ▶</button>
+  <button id="stopbtn" class="btn btn-danger" onclick="stop()">Stop ■ </button>
+  <button id="pausebtn" class="btn btn-primary" onclick="pause()">Pause ⏸️ </button>
 </center>
 <script src="main.js"></script>
 </body>
